@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+table{
+    border: 3px solid black;
+    text-align: center;
+    margin: auto;
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(242, 228, 38);
+    width:45px;
+    height:45px;
+    font-size: x-large;
+    text-align: center;
+    border: 2px;
+}
+button:hover{
+    background-color: rgb(238, 233, 142);
+}
+.win{
+    font-size: 45px;
+    background-color: rgb(174, 136, 86);
+}
+.
+
+
+.hide{
+    display: none;
+}

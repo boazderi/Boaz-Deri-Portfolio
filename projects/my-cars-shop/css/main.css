@@ -1,0 +1,40 @@
+body {
+    height: 150vh;
+
+}
+
+#navbar {
+    display: sticky;
+    z-index: 10;
+
+}
+
+.navbar-nav {
+    font-size: larger;
+    font-weight: 600;
+    float: right;
+    text-align: right;
+}
+
+h1 {
+    background: linear-gradient(45deg, rgb(162, 210, 252), rgb(40, 136, 220));
+    text-align: center;
+    border-bottom: 8px solid rgb(55, 96, 200);
+}
+
+footer {
+    text-align: center;
+}
+
+#about-us {
+    text-align: center;
+}
+
+.cards-contauier {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-body {
+    text-align: center;
+}

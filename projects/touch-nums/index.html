@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Touch-nums</h1>
+    <h2 class="difficult">Choose difficult:</h2>
+    <div>
+        <div class="easy level" onclick="createBoard(3)">Easy </div>
+        <div class="medium level" onclick="createBoard(5)">Medium</div>
+        <div class="hard level" onclick="createBoard(7)">Hard</div>
+        <div class="professional level" onclick="createBoard(9)">professional</div>
+    </div>
+    <table>
+    </table>
+    <div class="hide win">You win!</div>
+    <div class="play-again hide" onclick="PlayAgain(this)">Play again</div>
+    <h2 class="clock hide">Clock: <span class="seconds"></span>:<span class="milisecs"></span></h3>
+        <script src="/js/main.js"></script>
+</body>
+
+</html>
