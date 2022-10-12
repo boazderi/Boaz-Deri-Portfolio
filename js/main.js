@@ -68,7 +68,7 @@ function renderPortfolioRows() {
     elPortfolio.innerHTML = portfolioStr.join('')
 }
 
-function ongoToMsgUrl(){
+function ongoToMsgUrl() {
     var urlToGo = 'https://mail.google.com/mail/?view=cm&fs=1&to=me@example.com&su=SUBJECT&b ody=BODY'
     window.open(urlToGo, 'send message')
 }

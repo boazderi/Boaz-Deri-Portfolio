@@ -56,6 +56,6 @@ const gProjs = [{
 },
 ]
 
-function getProjects(){
+function getProjects() {
     return gProjs
 }
