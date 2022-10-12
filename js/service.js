@@ -1,10 +1,10 @@
 'use strict'
 
-const PROJECTS = [{
+const gProjs = [{
     id: "mines-Sweeper",
     name: "Mines Sweeper",
     title: "THe famous nostalgic game Mines Sweeper is here!",
-    desc: makeLorem(25)
+    desc: makeLorem(25),
     url: "projects/mines-Sweeper",
     publishedAt: 144869940000,
     labels: ["Matrixes", "keyboard events"],
@@ -54,5 +54,8 @@ const PROJECTS = [{
     publishedAt: 1448643940000,
     labels: ["Matrixes", "keyboard events"],
 },
-
 ]
+
+function getProjects(){
+    return gProjs
+}
