@@ -21,7 +21,7 @@ function renderPortfolioRows() {
         </a>
         <div class="portfolio-caption">
         <h4>${project.name}</h4>
-        <p class="text-muted">Illustration</p>
+        <p class="text-muted">${project.title}</p>
         </div>
         </div>
         `
@@ -50,7 +50,6 @@ function renderPortfolioRows() {
         </ul>
         <a href="${project.url}">
         <button class="btn bg-primary" type="button">
-        <i class="fa fa-times"></i>
         open project</button>
         </a>
         <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -67,4 +66,9 @@ function renderPortfolioRows() {
         return currPortfolioStr
     })
     elPortfolio.innerHTML = portfolioStr.join('')
+}
+
+function ongoToMsgUrl(){
+    var urlToGo = 'https://mail.google.com/mail/?view=cm&fs=1&to=me@example.com&su=SUBJECT&b ody=BODY'
+    window.open(urlToGo, 'send message')
 }

@@ -39,7 +39,7 @@ const gProjs = [{
 {
     id: "ball-board",
     name: "Ball Board",
-    title: "Have you played Ball Board? no? try it! here!",
+    title: "Have you played Ball Board? no? Try it here!",
     desc: makeLorem(25),
     url: "projects/ball-board",
     publishedAt: 1448653940000,
