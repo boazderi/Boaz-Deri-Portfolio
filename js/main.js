@@ -69,6 +69,11 @@ function renderPortfolioRows() {
 }
 
 function ongoToMsgUrl() {
-    var urlToGo = 'https://mail.google.com/mail/?view=cm&fs=1&to=me@example.com&su=SUBJECT&b ody=BODY'
+    var name = document.querySelector('.form-name')
+    var mail = document.querySelector('.form-email').value
+    var subject = document.querySelector('.form-subject').value
+    var message = document.querySelector('.form-message').value
+
+    var urlToGo = `https://mail.google.com/mail/?view=cm&fs=1&to=boazderi@gmail.com&su=${subject}&body=${message}`
     window.open(urlToGo, 'send message')
 }
